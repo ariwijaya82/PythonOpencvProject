@@ -1,3 +1,5 @@
+# created by: I Made Pande Ari Wijaya (07111740000020)
+
 import cv2 as cv
 import numpy as np
 
