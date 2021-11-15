@@ -1,7 +1,7 @@
 import cv2 as cv
 import sys
 
-img = cv.imread(cv.samples.findFile("starry_night.jpg"))
+img = cv.imread("../assets/lena.png", cv.IMREAD_GRAYSCALE)
 
 if img is None:
     sys.exit("Could not read the image")

@@ -1,7 +1,7 @@
 import cv2 as cv
 
-img1 = cv.imread("messi.jpg")
-img2 = cv.imread("lena.png")
+img1 = cv.imread("../assets/messi.jpg")
+img2 = cv.imread("../assets/lena.png")
 
 rows, cols, channels = img1.shape
 roi = img2[0:rows, 0:cols]
