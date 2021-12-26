@@ -1,6 +1,6 @@
 import cv2 as cv
 
-cap = cv.VideoCapture(0)
+cap = cv.VideoCapture(2)
 if not cap.isOpened():
     print("connot open camera")
     exit()
