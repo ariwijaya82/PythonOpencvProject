@@ -3,8 +3,8 @@ import cv2
 
 cam = cv2.VideoCapture(0)
 
-left_eye = cv2.imread('../left_eye.png')
-right_eye = cv2.imread('../right_eye.png')
+left_eye = cv2.imread('../assets/left_eye.png')
+right_eye = cv2.imread('../assets/right_eye.png')
 h1, w1 = left_eye.shape[:2]
 h2, w2 = right_eye.shape[:2]
 
